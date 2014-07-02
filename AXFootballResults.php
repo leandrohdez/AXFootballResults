@@ -114,7 +114,7 @@
 				else{
 					// JSON
 					if($this->formatRequest == CONFIG::JSON_FORMAT){
-						$result = array("sucess" => false, "lenght" => 0, "data" => "Invalid request");
+						$result = array("success" => false, "lenght" => 0, "data" => "Invalid request");
 						die(json_encode($result));
 					}
 					// XML
