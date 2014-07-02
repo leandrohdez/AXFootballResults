@@ -103,7 +103,7 @@
 				if($data){
 					// JSON
 					if($this->formatRequest == CONFIG::JSON_FORMAT){
-						$result = array("sucess" => true, "lenght" => count($data), "data" => $data);
+						$result = array("success" => true, "lenght" => count($data), "data" => $data);
 						die(json_encode($result));
 					}
 					// XML
